@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f2f6;
+    color: rgba(38, 40, 41, 0.813);
+    /* max-width: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-create-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(38, 40, 41, 0.813);
+}
+#label-div {
+    font-size: 23px;
+    margin-top: 10px;   
+    color: rgba(38, 40, 41, 0.683);
+    text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+#textbox-div {
+    margin-top: 10px;
+}
+/* input text */
+#ToDoLabel {
+    min-width: 280px;
+    max-width: 480px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid #f1f2f6;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+
+#button-submit-div {
+    margin-top: 10px;
+}
+#button-submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 20px;
+    background-color: #f1f2f6;
+    border-radius: 5px;
+    color: rgba(38, 40, 41, 0.813);
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: all .15s;
+}
+#button-submit:hover{
+    border-color: black;
+}
+button:hover {
+    border-color: black;
+}
+button:active{
+    box-shadow: none;
+    opacity: .7;
+}
+
+#todo-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.item-divs {
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 10px;
+    min-width: 350px;
+    max-width: 500px;
+    /* border: 2px solid rgba(159, 153, 153, 0.231); */
+    box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+    text-align: center;
+}
+.todo-heading{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 600;
+}
+.time-created {
+    margin: 0;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.848);
+    padding-bottom: 8px;
+}
+.button-div {
+    display: flex;
+    justify-content: space-between;
+}
+.mark-button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 15px;
+    background-color: #f1f2f6;
+    border-radius: 5px;
+    color: rgba(38, 40, 41, 0.813);
+    border-color: rgba(38, 40, 41, 0.228);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: all .15s;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.delete-button {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    background-color: #f1f2f6;
+    border-radius: 5px;
+    color: rgba(38, 40, 41, 0.813);
+    border-color: rgba(38, 40, 41, 0.228);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: all .15s;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
